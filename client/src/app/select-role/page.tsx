@@ -60,7 +60,7 @@ export default function SelectRole() {
                         Welcome! Choose Your Role
                     </h1>
                     <p className="text-white-50">
-                        Select how you'll be using the platform
+                        Select how you&apos;ll be using the platform
                     </p>
                 </div>
 

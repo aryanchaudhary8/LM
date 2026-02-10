@@ -177,7 +177,7 @@ export const getUploadVideoUrl = async (
     const s3Params = {
       Bucket: process.env.S3_BUCKET_NAME || "",
       Key: s3Key,
-      Expires: 60,
+      Expires: 3600, // 1 hour instead of 60 seconds
       ContentType: fileType,
     };
 
